@@ -1,0 +1,21 @@
+
+{
+  "schemaVersion": 1,
+  "id": "marsdlc",
+  "version": "${version}",
+  "name": "marsDLC",
+  "description": "marsDLC Minecraft client",
+  "authors": ["marsDLC"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.marsdlc.client.MarsDLC"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
