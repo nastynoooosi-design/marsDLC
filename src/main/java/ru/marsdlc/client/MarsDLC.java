@@ -28,7 +28,7 @@ public class MarsDLC implements ClientModInitializer {
                 "key.marsdlc.open_gui",
                 InputUtil.Type.KEYSYM,
                 GLFW.GLFW_KEY_RIGHT_SHIFT,
-                KeyBinding.Category.MISC
+                "category.marsdlc.general"
             )
         );
 
